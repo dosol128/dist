@@ -1,0 +1,81 @@
+/* =========================================
+   BASE STYLES (From the Starter Code)
+   ========================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #253238;
+}
+
+/* CUSTOM THEME: Changed from green to an indigo/purple gradient */
+header {
+  background: linear-gradient(120deg, #4f46e5, #7c3aed);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+/* CUSTOM THEME: Changed to match the indigo header */
+section h2 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+
+footer {
+  padding: 24px;
+  text-align: center;
+  background: #e8edf4;
+  font-size: 0.9rem;
+}
+
+/* =========================================
+   NEW CHECKLIST STYLES
+   ========================================= */
+
+/* 1. Responsive Image */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* 2. Styled Quote */
+blockquote {
+  background: #f0f4f8;
+  font-style: italic;
+  border-left: 4px solid #4f46e5;
+  margin: 20px 0;
+  padding: 16px 20px;
+}
+
+/* 3. Custom Link */
+a {
+  color: #7c3aed;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* 4. Hover Effect */
+a:hover {
+  color: #4f46e5;
+  text-decoration: underline;
+}
